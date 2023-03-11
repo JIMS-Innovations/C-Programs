@@ -38,4 +38,5 @@ int main()
 	
 	func_2();
 	
+	pthread_join(&func_1, NULL);	
 }
